@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.navigation{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style-type: none;
+padding: 20px;
+width: 91%;
+align-items: center;
+}
+.navig li a{
+    margin: 20px;
+text-decoration: none;
+    color: #909193;
+    font-size: 20px;
+    font-weight: 500;
+}
+.point{
+    color: black !important;
+}
+.navig{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.mid-txt{
+
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.swipe img:first-child{
+    padding-right: 15px;
+}
+.swipe img:last-child{
+    background-color: white;
+    border-radius: 28px;
+}
+
+.swipe{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 35px;
+}
+p{
+color: #223344;
+}
+h3{
+    line-height: -3.75rem;
+    color: #223344;
+}
+h1{
+    font-size: 60px;
+
+}
+.second{
+    padding: 17px 30px;
+    font-weight: bold;
+   font-size: 18px;
+   border-radius: 15px;
+   color: white;
+    margin: 15px;
+background-color: #2A4DD0;
+border: none;
+}
+.third{
+    color: #2A4DD0;
+    text-decoration:underline;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+footer{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+}
+.allbut{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    align-items: center;
+    margin: 1px;
+
+}
+
+.fir{
+   display: flex;
+   flex-direction: row;
+    color: #909193;
+}
+.sec{
+    color: #909193;
+}
+.fir p{
+    margin-right: 20px;
+}
+
+.done{
+    width: 2%;
+}
